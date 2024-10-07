@@ -6,13 +6,12 @@
 
 .fcontainer{
     margin: 3px;
-    height:500px;
-    width: 1500px;
     border: 2px solid black;
     display: flex;
     background-color: blue;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .fitem{
@@ -24,4 +23,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
