@@ -10,3 +10,13 @@ function validate(){
         document.getElementById('res').innerHTML = "Wrong!!!";
     }
 }
+
+// let a = 12;
+// let b = '12';
+// console.log(a==b);
+// console.log(a===b);
+
+let a=(x,y)=>{
+    console.log(x+y);
+}
+a(10,20);
