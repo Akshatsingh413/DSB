@@ -25,7 +25,10 @@ const ImageApp = () => {
         >
           Increase width
         </button>
-        <button>Decrease Width</button>
+        <button onClick={()=>{
+          setWidth(width-10);
+        }}>
+          Decrease Width</button>
         <button
           onClick={() => {
             setHeight(height + 10);
@@ -33,7 +36,10 @@ const ImageApp = () => {
         >
           Increase Height
         </button>
-        <button>Decrease Height</button>
+        <button onClick={()=>{
+          setHeight(height-10);
+        }}>
+          Decrease Height</button>
         <button
           onClick={() => {
             setRotation(rotation + 10);
